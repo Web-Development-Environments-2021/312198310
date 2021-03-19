@@ -1,7 +1,280 @@
 #menu
 {
 	position: fixed;
+	top: 0;
+	right:0;
+	left:0;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 40px;
+	background: rgb(67, 184, 252);
 }
+
+#menu a {
+    float: left;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    width: 12.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  #menu i 
+  {
+	  margin: 5px;
+  }
+
+	#logo 
+  {
+    max-height: 110%;
+  }
+  #menu a:hover {
+	color: rgb(102, 100, 100);
+  }
+
+ 
+
+  #about-pic
+  {
+    width: 100%;
+    height:100%;
+  }
+
+  body {
+    margin-top: 40px;
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .section-color {
+    background:rgb(103, 203, 250);
+    width:60%;
+    padding:7% 20% 10% 20%;
+    color:#fff;
+  }
+  .section-white {
+    text-align: center;
+    background:#fff;
+    width:60%;
+    padding:7% 20% 10% 20%;
+    color:rgb(103, 203, 250);
+  }
+  .section-white
+  h3 {
+    text-align: left;
+
+  }
+  .sectio-white {
+    background:#fff;
+    color:rgb(103, 203, 250);
+  }
+  h1 {
+    text-align:center;
+    font-size:80px;
+    font-family:'wire one', serif;
+    font-weight:normal;
+  }
+
+  h2 {
+    text-align:center;
+    font-size:65px;
+    font-family:'wire one', serif;
+    font-weight:normal;
+  }
+
+  h3 {
+    text-align:center;
+    font-size:30px;
+    font-family:'wire one', serif;
+    font-weight:600;
+  }
+
+  p {
+    font-size:35px;
+    font-family:'Raleway', serif;
+  }
+
+  #frame {
+    width: 400px;
+    height: 350px;
+    border: 3px solid rgb(147, 221, 255);
+    background: radial-gradient( #fff 49%,#fff, rgb(103, 203, 250),#fff,#fff);
+    margin: auto;
+    padding: 15px 10px;
+  }
+  
+  .skew-cc{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to right bottom, rgb(103, 203, 250) 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+  }
+  
+  .skew-c{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to left bottom, #fff 49%, rgb(103, 203, 250) 50%);
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    height:300px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(103, 203, 250);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    font-family:'wire one', serif;
+    font-weight:bold;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+
+  input[type=text]{
+    width: 100%;
+    height: 60px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+  input[type=text][name = comment]{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+  input[type=submit] {
+    border-radius: 12px;
+    background-color: white; /* Green */
+    border: none;
+    color: rgb(103, 203, 250);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=reset] {
+
+    border-radius: 12px;
+    background-color: white; /* Green */
+    border: none;
+    color: rgb(103, 203, 250);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #form-div
+  {
+    text-align: center;
+  }
+
+  .emojiBox{
+ 
+    width: 80%;
+    border: 1px solid #fff;
+    margin-left:auto;
+    margin-right:auto;
+
+
+    -webkit-box-shadow: 1px 1px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px -1px rgba(0,0,0,0.75);
+  }.emoji{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }.emojiCover{
+    box-sizing: content-box;
+    user-select: none;
+    cursor: pointer;
+    width: 5%;
+    font-size: 150%;
+    padding: 2px;
+    margin: 2px;
+    background-color: transparent;
+    transform: scale(0.9);
+  
+    transition: background-color 0.2s, transform 0.1s;
+  }.emojiCover:hover{
+    font-size: 250%;
+  }.emojiCover:active{
+    background-color: #fff;
+    transform: scale(1);
+  }
+  .emojiBox:hover
+  {
+    background-color:white;
+  }
+
+  #contact h2
+  {text-align: left;}
+
