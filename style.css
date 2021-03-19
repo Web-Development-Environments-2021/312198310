@@ -5,7 +5,7 @@
 	right:0;
 	left:0;
 	width: 100%;
-	height: 40px;
+	height: 45px;
 	background: rgb(67, 184, 252);
 }
 
@@ -14,7 +14,7 @@
     padding: 5px;
     color: white;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 23px;
     width: 12.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center; /* If you want the text to be centered */
   }
@@ -26,7 +26,7 @@
 
 	#logo 
   {
-    max-height: 110%;
+    max-height: 100%;
   }
   #menu a:hover {
 	color: rgb(102, 100, 100);
@@ -48,6 +48,7 @@
   .section-color {
     background:rgb(103, 203, 250);
     width:60%;
+    height:60%;
     padding:7% 20% 10% 20%;
     color:#fff;
   }
@@ -55,10 +56,11 @@
     text-align: center;
     background:#fff;
     width:60%;
+    height:60%;
     padding:7% 20% 10% 20%;
     color:rgb(103, 203, 250);
   }
-  .section-white
+  .section-white 
   h3 {
     text-align: left;
 
@@ -76,9 +78,9 @@
 
   h2 {
     text-align:center;
-    font-size:65px;
+    font-size:35px;
     font-family:'wire one', serif;
-    font-weight:normal;
+    font-weight:bold;
   }
 
   h3 {
@@ -137,7 +139,13 @@
     width: 100%;
     height: 300px;
   }
-  
+  .imageQr {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: 300px;
+  }
   .overlay {
     position: absolute;
     top: 0;
